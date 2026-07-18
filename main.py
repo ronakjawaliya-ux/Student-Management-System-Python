@@ -16,7 +16,7 @@ while True:
 
     choice = input("Enter your choice: ")
 
-    # ADD_STUDENTS
+    # 1. ADD_STUDENTS
     if choice == "1":
         student_id = int(input("Enter student ID: "))
         name = input("Enter student name: ")
@@ -29,11 +29,22 @@ while True:
                  "age": age,
                  "course": course
         }
-        students.append(student)
-        print("Student added successfully!")
+
+        found = False
+
+        for existing_student in students:
+            if existing_student["id"] == student_id:
+                 found = True
+                 print("\nStudent ID Already Exists.")
+                 break
+
+        if not found:
+            students.append(student)
+            print("Student added successfully!")
 
 
-    # VIEW_STUDENTS
+
+    # 2. VIEW_STUDENTS
     elif choice == "2":
         if len(students) == 0:
             print("No students found.")
@@ -47,7 +58,7 @@ while True:
                 print("Course:",student["course"])
 
 
-    # SEARCH_STUDENTS
+    # 3. SEARCH_STUDENTS
     elif choice == "3":
         search_id = int(input("Enter student ID to search: "))
 
@@ -67,7 +78,7 @@ while True:
             print("Student not found.")
 
 
-    # UPDATE_STUDENTS
+    # 4. UPDATE_STUDENTS
     elif choice == "4":
         update_id = int(input("Enter student ID to update: "))
 
@@ -86,7 +97,7 @@ while True:
             print("Student not found.")
 
 
-    # DELETE_STUDENTS
+    # 5. DELETE_STUDENTS
     elif choice == "5":
         delete_id = int(input("Enter student ID to delete: "))
 
@@ -103,18 +114,18 @@ while True:
             print("Student not found.")
 
 
-    # TOTAL_STUDENTS
+    # 6. TOTAL_STUDENTS
     elif choice == "6":
         print("Total Students:",len(students))
 
 
-    # CLEAR_STUDENTS
+    # 7. CLEAR_STUDENTS
     elif choice == "7":
         students.clear()
         print("All students are cleared successfully!")
 
 
-    # EXIT
+    # 8. EXIT
     elif choice == "8":
         print("Thank you for using Student Management System!")
         break
