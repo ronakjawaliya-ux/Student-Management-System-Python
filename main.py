@@ -1,7 +1,23 @@
-#  Project--01 | Student-Management-System
+#  Project-01 || Student Management System
 #  Using Python
 
-students = []
+import json
+
+
+
+def save_students():
+    with open("students.json", "w") as file:
+        json.dump(students, file, indent=4)
+
+def load_students():
+    try:
+        with open("students.json", "r") as file:
+            return json.load(file)
+    except (FileNotFoundError, json.JSONDecodeError):
+        return []
+
+students = load_students()
+
 
 while True:
     print("\n===== Student Management System =====")
@@ -41,7 +57,7 @@ while True:
         if not found:
             students.append(student)
             print("Student added successfully!")
-
+            save_students()
 
 
     # 2. VIEW_STUDENTS
@@ -90,6 +106,7 @@ while True:
                 student["age"] = input("Enter new age: ")
                 student["course"] = input("Enter new course: ")
                 print("Student updated successfully!")
+                save_students()
                 found = True
                 break
 
@@ -107,6 +124,7 @@ while True:
             if student["id"] == delete_id:
                 students.remove(student)
                 print("Student deleted successfully!")
+                save_students()
                 found = True
                 break
 
@@ -123,7 +141,7 @@ while True:
     elif choice == "7":
         students.clear()
         print("All students are cleared successfully!")
-
+        save_students()
 
     # 8. EXIT
     elif choice == "8":

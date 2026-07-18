@@ -1,0 +1,26 @@
+[
+    {
+        "id": 101,
+        "name": "Ronak",
+        "age": "21",
+        "course": "aiml"
+    },
+    {
+        "id": 102,
+        "name": "Shourya",
+        "age": "21",
+        "course": "aiml"
+    },
+    {
+        "id": 103,
+        "name": "Shikhar",
+        "age": "21",
+        "course": "aiml"
+    },
+    {
+        "id": 104,
+        "name": "Utsav",
+        "age": "20",
+        "course": "cyber"
+    }
+]
