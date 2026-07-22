@@ -4,7 +4,6 @@
 import json
 
 
-
 def save_students():
     with open("students.json", "w") as file:
         json.dump(students, file, indent=4)
@@ -20,7 +19,7 @@ students = load_students()
 
 
 while True:
-    print("\n===== Student Management System =====")
+    print("\n===== Student Management System =====\n")
     print("1. Add Student")
     print("2. View Students")
     print("3. Search Student")
