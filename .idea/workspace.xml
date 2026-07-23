@@ -5,8 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="e29a8cfb-5348-4f7b-80ff-8de1f0a6b172" name="Changes" comment="Initial Student Management System">
+      <change beforePath="$PROJECT_DIR$/.idea/Student-Management-System.iml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -35,63 +36,67 @@
     &quot;accountId&quot;: &quot;a9ec09a9-846e-445d-ac76-dff19e0a416d&quot;
   }
 }</component>
+  <component name="McpProjectServerCommands">
+    <commands />
+    <urls />
+  </component>
   <component name="NextEditCompletionFeaturesState">
     <decayedCancelled>
-      <entry key="MS100" value="1.6241654442108242" />
-      <entry key="MS500" value="1.9579738637831583" />
-      <entry key="S2" value="3.462826491353977" />
-      <entry key="S5" value="6.549373640907695" />
-      <entry key="S10" value="9.128286964444632" />
-      <entry key="S30" value="13.994942090889035" />
-      <entry key="S60" value="18.309757845581125" />
-      <entry key="M2" value="23.79112597021499" />
-      <entry key="M5" value="30.673418984498532" />
-      <entry key="M10" value="34.73141627243981" />
-      <entry key="M15" value="36.96371878808425" />
-      <entry key="M30" value="42.66901614908932" />
-      <entry key="H1" value="68.36533320858722" />
-      <entry key="H2" value="145.68315918057016" />
-      <entry key="H4" value="260.60495081058855" />
-      <entry key="D1" value="465.76362745969425" />
-      <entry key="W1" value="518.5326783354111" />
+      <entry key="MS100" value="5.018746959927416E-42" />
+      <entry key="MS500" value="9.086577708066402E-9" />
+      <entry key="S2" value="0.017496328980277864" />
+      <entry key="S5" value="0.5008447411726837" />
+      <entry key="S10" value="2.217639942432969" />
+      <entry key="S30" value="12.848379112090615" />
+      <entry key="S60" value="28.611053453198153" />
+      <entry key="M2" value="49.04330636612997" />
+      <entry key="M5" value="74.23333073238993" />
+      <entry key="M10" value="87.83525249078339" />
+      <entry key="M15" value="93.83886539105858" />
+      <entry key="M30" value="103.59307659551595" />
+      <entry key="H1" value="130.90740907159545" />
+      <entry key="H2" value="208.6001175276852" />
+      <entry key="H4" value="324.0562464854951" />
+      <entry key="D1" value="531.0384613235611" />
+      <entry key="W1" value="584.4180302789116" />
     </decayedCancelled>
     <decayedSelected>
-      <entry key="MS100" value="0.0" />
-      <entry key="MS500" value="0.0" />
-      <entry key="S2" value="6.383075132327594E-297" />
-      <entry key="S5" value="3.568928533065511E-119" />
-      <entry key="S10" value="7.32869964077555E-60" />
-      <entry key="S30" value="2.953827121232814E-20" />
-      <entry key="S60" value="2.430653227556102E-10" />
-      <entry key="M2" value="2.3176627837802573E-5" />
-      <entry key="M5" value="0.026844496202406018" />
-      <entry key="M10" value="0.34256290212350177" />
-      <entry key="M15" value="0.8518451741755562" />
-      <entry key="M30" value="2.2791853726101627" />
-      <entry key="H1" value="4.524427442011891" />
-      <entry key="H2" value="8.356536487101272" />
-      <entry key="H4" value="13.241979270510386" />
-      <entry key="D1" value="21.52627800542025" />
-      <entry key="W1" value="23.624383590739964" />
+      <entry key="MS100" value="1.0" />
+      <entry key="MS500" value="1.0000000000007008" />
+      <entry key="S2" value="1.0009149623504614" />
+      <entry key="S5" value="1.0608921473318" />
+      <entry key="S10" value="1.2467633427634666" />
+      <entry key="S30" value="1.627230085775199" />
+      <entry key="S60" value="1.7919785892449163" />
+      <entry key="M2" value="1.8899399014049025" />
+      <entry key="M5" value="1.9720667225350135" />
+      <entry key="M10" value="2.254637194578972" />
+      <entry key="M15" value="2.7251545159472754" />
+      <entry key="M30" value="4.117388487496198" />
+      <entry key="H1" value="6.364967144893173" />
+      <entry key="H2" value="10.209660507705912" />
+      <entry key="H4" value="15.125672383681913" />
+      <entry key="D1" value="23.494753619410982" />
+      <entry key="W1" value="25.619440345503985" />
     </decayedSelected>
     <decayedShown>
-      <entry key="MS100" value="0.6242527961351386" />
-      <entry key="MS500" value="1.072341302465053" />
-      <entry key="S2" value="2.8793729661547145" />
-      <entry key="S5" value="6.2155177761101505" />
-      <entry key="S10" value="8.936028396843481" />
-      <entry key="S30" value="13.922846281999796" />
-      <entry key="S60" value="18.27177326489095" />
-      <entry key="M2" value="23.771087219732586" />
-      <entry key="M5" value="30.6910837320031" />
-      <entry key="M10" value="35.06763066997502" />
-      <entry key="M15" value="37.80979726145668" />
-      <entry key="M30" value="44.94255983321623" />
-      <entry key="H1" value="72.87997074967383" />
-      <entry key="H2" value="154.02385077785087" />
-      <entry key="H4" value="273.8308136088082" />
-      <entry key="D1" value="487.2847816010889" />
-      <entry key="W1" value="542.1562404122603" />
+      <entry key="MS100" value="4.060250024617614E-6" />
+      <entry key="MS500" value="0.08350463517345712" />
+      <entry key="S2" value="0.549200163486177" />
+      <entry key="S5" value="1.2579759622058457" />
+      <entry key="S10" value="3.209232976332008" />
+      <entry key="S30" value="14.328427097257816" />
+      <entry key="S60" value="30.311588319291225" />
+      <entry key="M2" value="50.87832521652698" />
+      <entry key="M5" value="76.17890345490976" />
+      <entry key="M10" value="90.0742708877308" />
+      <entry key="M15" value="96.55196891518167" />
+      <entry key="M30" value="107.70165751128047" />
+      <entry key="H1" value="137.26114212987832" />
+      <entry key="H2" value="218.79331572214642" />
+      <entry key="H4" value="339.1654961949427" />
+      <entry key="D1" value="554.5280240515286" />
+      <entry key="W1" value="610.0366386382634" />
     </decayedShown>
   </component>
   <component name="ProjectColorInfo">{
@@ -107,6 +112,7 @@
   &quot;keyToString&quot;: {
     &quot;ModuleVcsDetector.initialDetectionPerformed&quot;: &quot;true&quot;,
     &quot;Python.main.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.MCP Project settings loaded&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.TerminalTabsStorage.copyFrom.TerminalArrangementManager.252&quot;: &quot;true&quot;,
     &quot;RunOnceActivity.git.unshallow&quot;: &quot;true&quot;,
@@ -127,8 +133,8 @@
   <component name="SharedIndexes">
     <attachedChunks>
       <set>
-        <option value="bundled-js-predefined-d6986cc7102b-31caf2ab9e3c-JavaScript-PY-261.26222.68" />
-        <option value="bundled-python-sdk-50341a9f1f9c-c2ffad84badb-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-261.26222.68" />
+        <option value="bundled-js-predefined-d6986cc7102b-4abd2a77f808-JavaScript-PY-262.8665.309" />
+        <option value="bundled-python-sdk-c6d794e1806d-5bd6d13a2a75-com.jetbrains.pycharm.pro.sharedIndexes.bundled-PY-262.8665.309" />
       </set>
     </attachedChunks>
   </component>
@@ -143,7 +149,9 @@
       <workItem from="1784369354865" duration="9308000" />
       <workItem from="1784538201089" duration="4565000" />
       <workItem from="1784544563828" duration="1414000" />
-      <workItem from="1784738562794" duration="496000" />
+      <workItem from="1784738562794" duration="3224000" />
+      <workItem from="1784750170786" duration="235000" />
+      <workItem from="1784800932646" duration="1072000" />
     </task>
     <task id="LOCAL-00001" summary="Initial Student Management System">
       <option name="closed" value="true" />
